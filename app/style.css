@@ -1,0 +1,704 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+:root {
+    /* color-scheme: ; */
+    --primary-color: #423362;
+    --secondary-color: #7B7091;
+    --light-color: #BAB4C6;
+    --accent-color: #FFC857;
+    --text-color: #423362;
+    --background-color: #EDECF1;
+    --footer-background: #423362;
+    --footer-text-color: #EDECF1;
+
+    /* spacing 1rem=16px*/
+    --space-gap: 2rem;
+    --space-between-section: 100px;
+
+    /* typography */
+    --font-family-l: "Labrada";
+    --font-family-m: "Mada";
+    --font-size-h1: 36px;
+    --font-size-h2: 28px;
+    --font-size-h3: 24px;
+    --font-size-h4: 20px;
+    --font-size-p1: 18px;
+    --font-size-p2: 14px;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+}
+
+
+
+.navbar {
+    /* height: 124 px !important; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(66, 51, 98) !important;
+    background: linear-gradient(0deg, rgba(66, 51, 98, 0) 0%, rgba(66, 51, 98, 0.3) 8%, rgba(66, 51, 98, 1) 14%, rgba(66, 51, 98, 1) 19%, rgba(66, 51, 98, 1) 42%, rgba(66, 51, 98, 1) 100%) !important;
+    padding: 0% !important;
+    position: relative;
+    z-index: 10;
+
+
+}
+
+#myHeader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 0;
+
+}
+
+nav {
+    height: 70px;
+    justify-content: right !important;
+}
+
+li a {
+    color: var(--accent-color) !important;
+    font-family: Labrada !important;
+    font-size: 24px !important;
+    font-weight: 500 !important;
+}
+
+li a:hover {
+    color: var(--background-color) !important;
+}
+
+.navbar-toggler {
+    background-color: var(--accent-color) !important;
+    cursor: pointer;
+    pointer-events: auto;
+
+}
+
+.navbar-brand {
+    margin-left: 1rem !important;
+    order: -1;
+}
+
+.navbar-collapse {
+    transition: height 0.3s ease-in-out;
+    z-index: 9;
+    justify-content: end;
+}
+
+@media (max-width: 768px) {
+    
+    nav {
+    height: 70px;
+    justify-content: right !important;
+}
+    .navbar {
+        justify-content: space-between;
+        height: 70px;
+    }
+
+    .navbar-brand {
+        margin-left: 1rem !important;
+        order: -1 !important;
+    }
+
+    .navbar-toggler {
+        background-color: var(--accent-color);
+        /* 可以設置漢堡選單的顏色 */
+    }
+
+    .navbar-collapse {
+        display: flex;
+        /* 確保展開後的菜單可見 */
+        flex-direction: column;
+        justify-content: flex-end;
+        /* 確保當漢堡選單展開時，選單項目排列在右邊 */
+    }
+}
+
+.sidenav>div>a {
+    text-decoration: none !important;
+    color: var(--primary-color) !important;
+}
+
+.sidenav {
+    margin-top: 70px !important;
+}
+
+.content {
+    height: 628px;
+    margin-top: 70px;
+}
+
+#sideBar {
+    width: 100%;
+    background-color: var(--light-color) !important;
+
+}
+
+#navBar {
+    width: 100%;
+
+    background-color: var(--light-color) !important;
+
+}
+
+.sidebar-option {
+    margin-top: .5rem !important;
+    margin-bottom: .5rem !important;
+}
+
+#sideBar>div>a {
+    color: var(--primary-color) !important;
+    text-decoration: none !important;
+    font-family: var(--font-family-l);
+    font-size: var(--font-size-h4);
+    cursor: pointer;
+    pointer-events: none;
+
+
+}
+
+#navBar>div>a {
+    color: var(--primary-color) !important;
+    text-decoration: none !important;
+    font-family: var(--font-family-l);
+    font-size: var(--font-size-h4);
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.navDigitalDesign {
+    background-image: url("/public/images/menubc.png") !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+
+}
+
+.container-all {
+    display: flex !important;
+    margin-top: 70px;
+    align-items: stretch;
+    height: calc(100vh - 70px)
+}
+
+.col-2 {
+    position: fixed;
+    width: 16.666%;
+    left: 0;
+    top: 65px;
+    /* Sticky 開始點，與 Header 高度對齊 */
+    height: 100%;
+    /* 確保內容高度適配視窗 */
+    overflow: hidden;
+    z-index: -1;
+
+}
+
+footer {
+    min-height: 36px;
+    width: 100%;
+    color: var(--footer-text-color) !important;
+    background-color: var(--primary-color) !important;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+/* About Page */
+.wrapper {
+    min-height: 100%;
+    /*外層高度100%*/
+    margin-bottom: -36px;
+    /*隨footer高度需做調整*/
+}
+
+.allContent {
+    padding: 0 2rem 2rem 2rem !important;
+    align-items: center;
+    /* overflow: scroll; */
+    /* height: 100%; 占滿剩下的垂直空間 */
+    width: 83.334% !important;
+    margin-left: 16.666% !important;
+}
+
+
+.greeting,
+.intro,
+.ecperience,
+.skills,
+.background,
+.contact {
+    margin-top: 7.75rem;
+    /* display: flex; */
+}
+
+.contact {
+    margin-bottom: 7.5rem;
+}
+
+.contactRow,
+.DesignRow,
+.storyRow {
+    background-color: rgba(123, 112, 145, 0.1);
+    height: auto;
+    width: 100%;
+}
+
+.contactRow {
+    margin-bottom: 7.5rem;
+}
+.myExperience {
+    display: flex;
+    flex-direction: column;
+}
+.firstHi,
+.mystory {
+    display: flex;
+    margin: auto;
+    padding: 0;
+}
+
+.contactCon {
+    display: flex;
+    margin: auto;
+    padding: 0;
+    margin-top: 3rem !important;
+    margin-bottom: 7.5rem !important;
+
+
+}
+
+hr {
+    margin-top: var(--space-between-section) !important;
+    margin-bottom: var(--space-between-section) !important;
+}
+
+.intro {
+    display: flex;
+    margin-top: var(--space-between-section);
+}
+
+.myPic {
+    width: 416px;
+    height: 416px;
+}
+
+
+.hello {
+    font-family: mada;
+    color: var(--primary-color);
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-bold);
+}
+
+.hello>strong {
+    color: var(--accent-color);
+    text-shadow: 0px 1px 1px rgb(0, 0, 0, 25%);
+    -webkit-text-stroke: 0.2px #423362;
+}
+
+p>strong {
+    color: var(--accent-color);
+    font-weight: 500;
+    text-shadow: 0px 1px 1px rgb(0, 0, 0, 25%);
+    -webkit-text-stroke: 0.2px #423362;
+}
+
+.helloCon>p {
+    margin-top: 3rem !important;
+}
+
+h1 {
+    font-family: var(--font-family-l);
+    font-size: var(--font-size-h1) !important;
+    font-weight: var(--font-weight-medium) !important;
+    color: var(--primary-color) !important;
+
+}
+
+h3 {
+    font-family: var(--font-family-m);
+    font-size: var(--font-size-h3) !important;
+    font-weight: var(--font-weight-medium) !important;
+    color: var(--primary-color) !important;
+    text-align: center;
+}
+
+h4{
+    font-family: var(--font-family-m);
+    font-size: var(--font-size-h4) !important;
+    color: var(--text-color) !important;
+    font-weight:var(--font-weight-regular) !important;
+}
+
+.experience-text{
+    display: flex;
+    flex-direction: column !important;
+    align-items: start;
+    margin-right: 2rem;
+    margin-top: 8px;
+}
+
+.experience-text > h3 {
+    font-weight: var(--font-weight-regular) !important;
+    text-align: left !important;
+}
+
+.p1 {
+    font-family: var(--font-family-m);
+    font-size: var(--font-size-p1) !important;
+    font-weight: var(--font-weight-regular) !important;
+    color: var(--primary-color) !important;
+}
+
+.works{
+    display: flex;
+    margin-top: 3rem !important;
+}
+
+.works > div > h1{
+    text-decoration: underline !important;
+    margin-bottom: 1rem !important;
+}
+
+.skillPic>img {
+    max-width: 160px;
+    height: auto;
+    margin-bottom: 1.5rem;
+
+    /* 小螢幕上要max-width: 100% */
+}
+
+.skillPic {
+    margin-right: 2rem;
+    align-content: center;
+}
+
+.skillsticker {
+    display: flex;
+    overflow: auto;
+    margin-top: 3rem !important;
+}
+
+.emailB {
+    width: 40px;
+    height: 40px;
+    color: var(--secondary-color);
+    margin-left: 36px;
+    margin-right: 1rem;
+}
+
+
+.contactBCon {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainCon {
+    margin: 0 !important;
+}
+
+.GBC,
+.SLC,
+.MCU {
+    display: flex;
+    gap: 3rem;
+    margin-top: 3rem !important;
+}
+
+.h3Ubderline {
+    text-decoration: underline;
+    text-align: left !important;
+}
+
+.school {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: left !important;
+}
+
+
+
+
+
+
+
+
+/* home page */
+.homeBodyCont {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 90vh;
+
+}
+
+.homeBGContainer {
+    height: 1024px;
+    z-index: -1;
+}
+
+.homeBG {
+    top: -4rem !important;
+    height: max-content;
+}
+
+.greetingComtainer {
+    /* display: flex; */
+    margin-top: 2rem;
+}
+
+.sayHi {
+    display: flex;
+    margin-left: var(--space-gap);
+    margin-top: 6rem;
+}
+
+.greetingHey img {
+    height: 128px;
+    opacity: 0;
+    animation-name: greetingAnima;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+.greetingThere img {
+    height: 128px;
+    margin-left: 20px;
+    opacity: 0;
+    animation-name: greetingAnima;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+
+}
+
+.whoIam {
+    display: flex;
+    margin-left: var(--space-gap);
+    align-items: end;
+
+}
+
+.greetingIm img {
+    height: 84px;
+    margin-right: 20px;
+    opacity: 0;
+    animation-name: greetingAnima;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+
+}
+
+.greetingNing img {
+    height: 156px;
+    margin-right: 20px;
+    opacity: 0;
+    animation-name: greetingAnima;
+    animation-delay: 3s;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+
+}
+
+.greetingWang img {
+    height: 156px;
+    opacity: 0;
+    animation-name: greetingAnima;
+    animation-delay: 4s;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+.also {
+    display: flex;
+    align-items: center;
+    margin-left: var(--space-gap);
+}
+
+.greetingAlso img {
+    height: 28px;
+    opacity: 0;
+    animation-name: greetingAnima;
+    animation-delay: 5s;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+.greetingVir img {
+    height: 122px;
+    margin-left: 20px;
+    opacity: 0;
+    animation-name: greetingAnima;
+    animation-delay: 6s;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes greetingAnima {
+    0% {
+        opacity: 0%;
+    }
+
+    50% {
+        opacity: 80%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.homeBtn {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.resumeB {
+    display: flex;
+    width: 150px;
+    height: 40px;
+    margin-left: 2rem;
+    /* padding: 4px; */
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.resumeP {
+    margin: 0 !important;
+}
+
+.pdfB {
+    width: 24px !important;
+    height: 24px !important;
+    color: var(--secondary-color);
+    margin-left: 4px;
+}
+
+.linkedinB,
+.instagramB,
+.behanceB {
+    width: 40px;
+    height: 40px;
+    color: var(--secondary-color);
+    cursor: pointer;
+    margin-left: 36px;
+}
+
+.resumeB:hover {
+    
+    .resumeP {
+        color: var(--accent-color)
+    }
+    .pdfB {
+        color: var(--accent-color);
+    }
+
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+}
+
+
+.linkedinB:hover {
+    color: var(--primary-color);
+}
+
+.instagramB:hover {
+    color: var(--primary-color);
+}
+
+.behanceB:hover {
+    color: var(--primary-color);
+}
+
+
+
+
+
+
+
+/* project */
+
+.projectsCon {
+    padding: 2rem !important;
+    align-items: center;
+    overflow: scroll;
+    overflow-y: auto;
+    height: calc(100vh - 70px);
+    /* 減去 header 的高度 */
+    width: 83.334% !important;
+    margin-left: 16.666% !important;
+}
+
+.projectRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 7.75rem !important;
+    transition: all 0.3s ease ease-in-out;
+    /* opacity: 0.5; 初始透明度 */
+    transform: scale(0.9) translateY(20px);
+    /* 初始縮小 */
+}
+
+.project.active {
+    opacity: 1;
+    /*完全顯示*/
+    transform: scale(1) translateY(0);
+}
+
+
+.projectPic img {
+    width: auto;
+    height: 348px;
+}
+
+
+.projectText {
+    display: flex;
+    flex-direction: column;
+}
+
+.projectText h3 {
+    text-align: left;
+}
+
+.projectText video {
+    margin-top: 1rem;
+}
