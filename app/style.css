@@ -99,11 +99,12 @@ li a:hover {
 }
 
 @media (max-width: 768px) {
-    
+
     nav {
-    height: 70px;
-    justify-content: right !important;
-}
+        height: 70px;
+        justify-content: right !important;
+    }
+
     .navbar {
         justify-content: space-between;
         height: 70px;
@@ -262,10 +263,12 @@ footer {
 .contactRow {
     margin-bottom: 7.5rem;
 }
+
 .myExperience {
     display: flex;
     flex-direction: column;
 }
+
 .firstHi,
 .mystory {
     display: flex;
@@ -339,14 +342,14 @@ h3 {
     text-align: center;
 }
 
-h4{
+h4 {
     font-family: var(--font-family-m);
     font-size: var(--font-size-h4) !important;
     color: var(--text-color) !important;
-    font-weight:var(--font-weight-regular) !important;
+    font-weight: var(--font-weight-regular) !important;
 }
 
-.experience-text{
+.experience-text {
     display: flex;
     flex-direction: column !important;
     align-items: start;
@@ -354,7 +357,7 @@ h4{
     margin-top: 8px;
 }
 
-.experience-text > h3 {
+.experience-text>h3 {
     font-weight: var(--font-weight-regular) !important;
     text-align: left !important;
 }
@@ -366,12 +369,12 @@ h4{
     color: var(--primary-color) !important;
 }
 
-.works{
+.works {
     display: flex;
     margin-top: 3rem !important;
 }
 
-.works > div > h1{
+.works>div>h1 {
     text-decoration: underline !important;
     margin-bottom: 1rem !important;
 }
@@ -566,6 +569,19 @@ h4{
     animation-fill-mode: forwards;
 }
 
+.greetingDesi img{
+    height: 28px;
+    opacity: 0;
+    margin-left: 20px;
+    animation-name: greetingAnima;
+    animation-delay: 7s;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+
+}
+
 @keyframes greetingAnima {
     0% {
         opacity: 0%;
@@ -621,10 +637,11 @@ h4{
 }
 
 .resumeB:hover {
-    
+
     .resumeP {
         color: var(--accent-color)
     }
+
     .pdfB {
         color: var(--accent-color);
     }

@@ -40,6 +40,9 @@ export default function Page() {
                <div className="greetingVir anima">
                   <img src="images/Vir.png" />
                </div>
+               <div className="greetingDesi anima">
+                  <img src="images/Designer.png" />
+               </div>
             </div>
          </div>
          <section className="homeBtn">
