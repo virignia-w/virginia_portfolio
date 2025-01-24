@@ -47,7 +47,7 @@ export default function Page() {
                      <Image className="mypic col-6" src={myPic} style={{ width: (416), height: (416) }} alt="my pictute" />
                      <div className="helloCon col-6">
                         <h1 className="hello">Hi, I'm <strong>Virginia</strong></h1>
-                        <p className="p1"> Back in Taiwan, I worked as a <strong>senior motor-scooter UX Designer.</strong> Before that, I studied <strong>Product Design at university.</strong><br /><br />
+                        <p className="p1"> Back in Taiwan, I worked as a <strong>senior motor-scooter  Designer.</strong> Before that, I studied <strong>Product Design at university.</strong><br /><br />
                            After spending 5 years in product planning, I developed an interest in degital UX design, as it combines planning, design, and research. In the summer of 2023, I moved to Canada and studied <strong>UX design at St. Lawrence College</strong> and <strong>Web development at George Brown College.</strong></p>
                      </div>
                   </div>
@@ -74,7 +74,7 @@ export default function Page() {
                         <h1>Experience</h1>
                      </div>
                      <div >
-                        <div className="works">
+                        {/* <div className="works">
                            <div className="col-3 experience-text">
                               <h4>Oct. 2023- Jan.2024 </h4>
                               <h3>LUSH (CA)</h3>
@@ -87,14 +87,14 @@ export default function Page() {
                               <p className="p1">- Maintain store clean and tidy.</p>
                               <p className="p1">- Cashier.</p>
                            </div>
-                        </div>
+                        </div> */}
                         <div className="works">
                            <div className="col-3 experience-text">
-                              <h4>Feb. 2017- Apr. 2022</h4>
+                              <h4>04/2022-02/2017</h4>
                               <h3>SANYANG MOTOR (SYM) (TW)</h3>
                            </div>
                            <div className="col-9">
-                              <h1>Product planner/UX designer</h1>
+                              <h1>Product designer/Product planner</h1>
                               <p className="p1">- Target defines and researches/ Customers and market response track and analyze.</p>
                               <p className="p1">- Scooter outfit design and function planning</p>
                               <p className="p1">- Ensure to reach customers' needs and business' needs at the same time.</p>
@@ -103,7 +103,7 @@ export default function Page() {
                         </div>
                         <div className="works">
                            <div className="col-3 experience-text">
-                              <h4>Jun. 2016- Dec. 2016</h4>
+                              <h4>12/2016-06/2012</h4>
                               <h3>Smile Diamond (TW)</h3>
                            </div>
                            <div className="col-9">

@@ -15,7 +15,7 @@ html {
     --secondary-color: #455D58;
     --light-color: #FEFDFB;
     --accent-color: #CE9199;
-    --text-color: #423362;
+    --text-color: #18412F;
     --background-color: #FEFDFB;
     --footer-background: #455D58;
     --footer-text-color: #FEFDFB;
@@ -69,7 +69,7 @@ nav {
     justify-content: right !important;
 }
 
-li a {
+.navbar-nav a {
     color: var(--accent-color) !important;
     font-family: Labrada !important;
     font-size: 24px !important;
@@ -80,8 +80,10 @@ li a:hover {
     color: var(--background-color) !important;
 }
 
+
 .collapseB {
     background-color: var(--accent-color) !important;
+    border: none !important;
     cursor: pointer;
     pointer-events: auto;
 
@@ -98,7 +100,7 @@ li a:hover {
     justify-content: end;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
 
     nav {
         height: 70px;
@@ -122,11 +124,12 @@ li a:hover {
 
     .navC {
         display: flex;
+        background-color: var(--primary-color);
         /* 確保展開後的菜單可見 */
         flex-direction: column;
         justify-content: flex-end;
         /* 確保當漢堡選單展開時，選單項目排列在右邊 */
-    }
+   }
 }
 
 .sidenav>div>a {
@@ -671,6 +674,12 @@ h4 {
 
 /* project */
 
+.projectMenu{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
 .projectsCon {
     padding: 2rem !important;
     align-items: center;
@@ -684,37 +693,35 @@ h4 {
 
 .projectRow {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 50%;
+    /* align-items: center;
+    justify-content: center; */
     margin-bottom: 7.75rem !important;
-    transition: all 0.3s ease ease-in-out;
-    /* opacity: 0.5; 初始透明度 */
-    transform: scale(0.9) translateY(20px);
-    /* 初始縮小 */
 }
 
-.project.active {
-    opacity: 1;
-    /*完全顯示*/
-    transform: scale(1) translateY(0);
-}
-
-
-.projectPic img {
-    width: auto;
-    height: 348px;
-}
-
-
-.projectText {
+.projectFirst{
     display: flex;
-    flex-direction: column;
+    flex-wrap: nowrap !important;
 }
 
-.projectText h3 {
+.projectCard img {
+    width: 80%;
+    position: relative;
+}
+
+
+.projectCard {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 80% !important;
+    position: absolute !important; 
+}
+
+.projectCard h4 {
     text-align: left;
+    font-size: var(--font-size-h4);
 }
 
-.projectText video {
+.pprojectCard video {
     margin-top: 1rem;
 }

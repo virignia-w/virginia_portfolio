@@ -11,14 +11,15 @@ html {
 
 :root {
     /* color-scheme: ; */
-    --primary-color: #423362;
-    --secondary-color: #7B7091;
-    --light-color: #BAB4C6;
-    --accent-color: #FFC857;
-    --text-color: #423362;
-    --background-color: #EDECF1;
-    --footer-background: #423362;
-    --footer-text-color: #EDECF1;
+    --primary-color: #18412F;
+    --secondary-color: #455D58;
+    --tertidary-color: #9D86A0;
+    --light-color: #FEFDFB;
+    --accent-color: #CE9199;
+    --text-color:#18412F;
+    --background-color: #FEFDFB;
+    --footer-background: #455D58;
+    --footer-text-color: #FEFDFB;
 
     /* spacing 1rem=16px*/
     --space-gap: 2rem;
@@ -57,6 +58,20 @@ html {
     margin-bottom: 7.5rem !important;
 } */
 
+.backB{
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    p{
+        font-family: var(--font-family-l);
+        font-size: var(--font-size-h4);
+        margin-left: 8px;
+        margin-bottom: 0;
+    }
+}
+
 .workHead-card {
     border: solid;
     border-color: var(--secondary-colorr) !important;
@@ -78,7 +93,7 @@ html {
 
 .workHead-card>h2 {
     font-family: var(--font-family-m);
-    color: var(--accent-color);
+    color: var(--tertidary-color);
     font-size: var(--font-size-h2);
 }
 .work-mainPic{
@@ -96,11 +111,11 @@ html {
     justify-content: space-between;
 }
 
-hr {
-    color: var(--secondary-color) !important;
+.hr {
+    background-color: var(--accent-color) !important;
     height: 3px !important;
+    border-top: none;
     width: 100% !important;
-    border: 0;
     opacity: 1 !important;
 }
 
@@ -110,6 +125,7 @@ hr {
     opacity: 1 !important;
     width: 3px !important;
     padding: 0 !important;
+    margin: 0;
 }
 
 .date {
@@ -149,26 +165,122 @@ hr {
     margin: auto !important;
 }
 
-.work-bcg-text > p {
+.work-bcg-text p {
+ 
     margin-top: 3rem !important;
 }
 
+.backgroundCarousel{
+    height: 560px;
+    max-width: 80%;
+    position: absolute;
+}
+.carousel-item img{
+    height: 560px;
+    object-fit: cover !important;
+
+}
+
+.work-section{
+    margin-top: 7.75rem !important;
+
+}
 
 
+.researchH h3{
+    text-align: left !important;
+    margin-top: 3rem !important;}
+    
+.myRole{
+    margin-top: 0 !important;
+}   
 
+.work-research-img img {
+    width: 100%;
+    margin-top: 3rem !important;
+   
+}
+.hr-2{
+    color: var(--secondary-color);
+    height: 3px;
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
 
-
-
-
-
-.contactCon {
+}
+.work-research-role{
     display: flex;
-    margin: auto;
-    padding: 0;
-    margin-top: 3rem !important;
-    margin-bottom: 7.5rem !important;
+    align-content: center;
+    p{
+        margin-top: 0 !important;
+    }
+    h3{
+        color: var(--accent-color) !important;
+    }
+}
+.research-img{
+    display: flex;
+    justify-content: space-around;
 }
 
+.work-design{
+    margin-top: 3rem !important;
+}
+
+.work-design-text{
+    display: flex;
+}
+
+.work-result-img{
+    display: flex;
+    justify-content: space-around;
+ 
+   
+}
+.work-result-img img{
+object-fit: cover !important;
+padding: 1rem;
+}
+
+.teamCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width: 100%;
+
+    }
+    h2 {
+        font-family: var(--font-family-m);
+        font-size: var(--font-size-h4);
+        color: var(--primary-color);
+        margin-top: var(--space-gap);
+    }
+    .linkedinB{
+        margin-left: 0 !important;
+        margin-top: var(--space-gap);
+    }
+}
+
+.meetTeam{
+    margin-top: 3rem !important;
+}
+
+
+
+.work-reach {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    margin-top: 7.5rem !important;
+    margin-bottom: 7.5rem !important;
+    height: 286px;
+    background-color: rgba(69, 93, 88, 0.1);
+}
+/* .reachout{
+    margin: 3rem !important;
+} */
 
 .emailB {
     width: 40px;
@@ -176,6 +288,7 @@ hr {
     color: var(--secondary-color);
     margin-left: 36px;
     margin-right: 1rem;
+    color: var(--primary-color);
 }
 
 
