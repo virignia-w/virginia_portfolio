@@ -677,7 +677,9 @@ h4 {
 .projectMenu{
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    /* width: 1344px; */
+    align-items: flex-start;
+    gap: 40px;
 }
 
 .projectsCon {
@@ -702,6 +704,8 @@ h4 {
 .projectFirst{
     display: flex;
     flex-wrap: nowrap !important;
+    align-items: center;
+    gap: 40px;
 }
 
 .projectCard img {
