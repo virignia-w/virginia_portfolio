@@ -11,21 +11,39 @@ export default function Page() {
 
    const projects = [
       {
+         type: "UX/UI Digital Design",
          title: "Transforming a College Website with User-Centered UX Strategies",
          img: "images/project/workshop.png",
-         video: "images/project/PDrecord.mov",
          link: "/works",
       },
       {
-         title: "Optimising User Experience: Reorganizing the UI Layout of a College Website",
-         img: "images/project/IWKB.png",
-         video: "images/project/IWKBvideo.mov",
+         type: "UX Product Design",
+         title: "How I Reviving the Legend- Duke125",
+         img: "images/project/duke.png",
          link: "#",
       },
       {
-         title: "A Beginner-friendly Recipe App",
+         type: "UX Service Design",
+         title: "International Student Support Service",
+         img: "images/project/kingston.png",
+         link: "#",
+      },
+      {
+         type: "UX/UI Digital Design",
+         title: "Cooking with Confidence: A Beginner-friendly recipe App",
          img: "images/project/cook.png",
-         video: "images/project/PDrecord.mov",
+         link: "#",
+      },
+      {
+         type: "UX/UI Digital Design",
+         title: "Optimising User Experience: Reorganizing the UI Layout of a College Website",
+         img: "images/project/IWKB.png",
+         link: "#",
+      },
+      {
+         type: "",
+         title: "Art",
+         img: "images/project/IWKB.png",
          link: "#",
       },
    ];
@@ -66,49 +84,30 @@ export default function Page() {
             {/* <div className="col-2 container p-0 m-0 d-flex">
                <Nav />
             </div> */}
-            <div className="row projectFirst">
-               {[
-                  {
-                     type: "UX/UI Digital Design",
-                     title: "Transforming a College Website with User-Centered UX Strategie",
-                     img: "images/project/workshop.png",
-                     // video: "images/project/PDrecord.mov",
-                     link: "/PD",
-                  },
-                  {
-                     type: "UX Product Design",
-                     title: "How I Reviving the Legend- Duke125",
-                     img: "images/project/duke.png",
-                     // video: "images/project/IWKBvideo.mov",
-                     link: "#",
-                  },
-                  {
-                     type: "UX Service Design",
-                     title: "International Student Support Service",
-                     img: "images/project/kingston.png",
-                     // video: "images/project/PDrecord.mov",
-                     link: "#",
-                  },
-               ].map((project, index) => (
-                  <div
-                     key={index}
-                     className={`projectRow ${activeIndex === index ? "active" : ""
-                        }`}
-                  >
+            <div className="projectFirst">
+               {projects.map((project, index) => (
+                  // <div
+                  //    key={index}
+                  //    className={`projectRow ${activeIndex === index ? "active" : ""
+                  //       }`}
+                  // >
 
-                     <div className="projectCard">
+                     <div className={`projectCard ${project.title === "Art" ? "artCard" : ""}`} key={index}>
                         <img src={project.img} className="" alt="..." />
-                        <p className="p1">UX/UI</p>
-                        <h4>
-                           <a href={project.link} style={{ textDecoration: "none", color: "inherit" }}>
-                              {project.title}
-                           </a>
-                        </h4>
+                        <div className="projectContent">
+                           <p className="projectType">{project.type}</p>
+                           <h4>
+                              <a className="projectText projectLink" href={project.link}>
+                                 {project.title}
+                              </a>
+                           </h4>
+                        </div>
+                        
     
                      </div>
 
 
-                  </div>
+                  // </div>
                ))}
             </div>
             {/* <div className="row">
