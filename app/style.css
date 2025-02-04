@@ -764,9 +764,15 @@ h4 {
 
 .artCard {
     flex-direction: row;
-    gap: 2rem;
+    gap: 10px;
 }
 
 .pprojectCard video {
     margin-top: 1rem;
+}
+
+@media (max-width: 992px) {
+    .artCard{
+        flex-direction: column;
+    }
 }

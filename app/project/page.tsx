@@ -74,8 +74,8 @@ export default function Page() {
 
    return <>
 
-      <div id="container m-0 p-0 gx-0">
-         <div className="row ">
+      <div id="container" className="container-fluid m-0 p-0 gx-0">
+         <div className="row">
             <div className="col-12" id="myHeader">
                <Header />
             </div>
@@ -86,78 +86,22 @@ export default function Page() {
             </div> */}
             <div className="projectFirst">
                {projects.map((project, index) => (
-                  // <div
-                  //    key={index}
-                  //    className={`projectRow ${activeIndex === index ? "active" : ""
-                  //       }`}
-                  // >
-
-                     <div className={`projectCard ${project.title === "Art" ? "artCard" : ""}`} key={index}>
-                        <img src={project.img} className="" alt="..." />
-                        <div className="projectContent">
-                           <p className="projectType">{project.type}</p>
-                           <h4>
-                              <a className="projectText projectLink" href={project.link}>
-                                 {project.title}
-                              </a>
-                           </h4>
-                        </div>
-                        
-    
-                     </div>
-
-
-                  // </div>
-               ))}
-            </div>
-            {/* <div className="row">
-               {[
-                  {
-                     type: "UX Product Design",
-                     title: "A Beginner-friendly recipe App",
-                     img: "images/project/cook.png",
-                     // video: "images/project/PDrecord.mov",
-                     link: "#",
-                  },
-                  {
-                     type: "UX/UI Digital Design",
-                     title: "Optimising User Experience: Reorganizing the UI Layout of a College Website",
-                     img: "images/project/IWKB.png",
-                     // video: "images/project/IWKBvideo.mov",
-                     link: "#",
-                  },
-                  {
-
-                  },
-               ].map((project, index) => (
-                  <div
-                     key={index}
-                     className={`row projectRow ${activeIndex === index ? "active" : ""
-                        }`}
-                  >
-                     <div className="projectText col-4">
-                        <a href="/works">work</a>
-                        <p className="p1">UX/UI</p>
-                        <h3>
-                           <a href={project.link} style={{ textDecoration: "none", color: "inherit" }}>
+                  <div className={`projectCard  ${project.title === "Art" ? "artCard" : ""}`} key={index}>
+                     <img src={project.img} className="img-fluid" alt="..." />
+                     <div className="projectContent">
+                        <p className="projectType">{project.type}</p>
+                        <h4>
+                           <a className="projectText projectLink" href={project.link}>
                               {project.title}
                            </a>
-                        </h3>
-                        {/* <video width="152" height="132" controls>
-                           <source src={project.video} type="video/mp4" />
-                        </video> */}
-                     {/* </div>
-                     <div className="projectPic col-7">
-                        <img src={project.img} />
+                        </h4>
                      </div>
                   </div>
-               ))} */}
-            {/* </div> */} 
-
-
+               ))}
+            </div>
          </div>
          <div className="row footerRow">
-            <footer className="container-fluid text-center ">
+            <footer className="container-fluid text-center">
                <p>&copy; 2024 Virignia Wang</p>
             </footer>
          </div>
