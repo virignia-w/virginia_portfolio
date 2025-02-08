@@ -5,7 +5,7 @@ import Nav from "./components/nav";
 export default function Page() {
     return <>
      <Header />
-     <Nav />
+     {/* <Nav /> */}
      
  <footer className="container-fluid text-center ">
     <p>&copy 2024 Virignia Wang</p>
