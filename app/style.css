@@ -196,7 +196,7 @@ li a:hover {
     margin-top: 70px;
     align-items: stretch;
     height: calc(100vh - 70px);
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
 }
 
 .col-2 {
@@ -682,6 +682,7 @@ h4 {
     align-items: center;
     gap: 40px;
     padding-bottom: 3rem;
+    background-color: var(--primary-color);
 }
 
 .projectsCon {
@@ -745,18 +746,18 @@ h4 {
 }
 
 .projectType {
-    font-size: var(--font-size-p1);
+    font-size: var(--font-size-p2);
     color: var(--light-color);
 }
 
 .projectCard h4 {
     text-align: left;
-    font-size: var(--font-size-h4);
+    font-size: var(--font-size-p1);
     color: var(--light-color);
 }
 
 .projectLink {
-    font-size: var(--font-size-h2);
+    font-size: var(--font-size-h4);
     text-decoration: none;
     color: var(--light-color);
     font-weight: 600;
@@ -764,7 +765,7 @@ h4 {
 
 .artCard {
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
 }
 
 .pprojectCard video {

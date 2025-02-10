@@ -41,12 +41,14 @@ html {
 
 }
 
-.allContent {
+p{
+    margin-bottom: 0 !important;
+}
+
+.workContent {
     padding: 2rem 2rem 2rem 2rem !important;
     align-items: center;
-    width: 83.334% !important;
-    margin-left: 16.666% !important;
-    
+    margin-top: 70px;
 }
 
 /* .workHead-card,
@@ -142,7 +144,7 @@ html {
     flex-direction: column;
     height: 416px;
     width: 100%;
-    background-color: rgb(123, 112, 145, 0.1);
+    background-color: #EBEDEB;
     /* align-items: center; */
     justify-content: center;
 
@@ -152,11 +154,12 @@ html {
 }
 
 
+
 .work-reach {
     margin-top: 7.75rem;
     /* display: flex; */
     margin-bottom: 7.5rem;
-    background-color: rgba(123, 112, 145, 0.1);
+    background-color: #EBEDEB;
     height: auto;
     width: 100%;
 }
@@ -170,15 +173,19 @@ html {
     margin-top: 3rem !important;
 }
 
-.backgroundCarousel{
-    height: 560px;
-    max-width: 80%;
-    position: absolute;
+.duke-bcg-text p{
+    margin-top: 1rem !important;
 }
-.carousel-item img{
-    height: 560px;
-    object-fit: cover !important;
 
+
+.oldPic img{
+    width: 450px;
+    object-fit: cover !important;
+}
+
+.duke-goPic img{
+    width: 850px;
+    object-fit: cover !important;
 }
 
 .work-section{
@@ -186,11 +193,22 @@ html {
 
 }
 
+.bgc {
+    background-color: #EBEDEB !important;
+    height: auto;
+}
 
-.researchH h3{
+
+.workH h3{
     text-align: left !important;
     margin-top: 3rem !important;}
-    
+
+/* @media (max-width: 992px) {
+    .work-research {
+        flex-direction: column;
+    }
+}
+     */
 .myRole{
     margin-top: 0 !important;
 }   
@@ -198,8 +216,68 @@ html {
 .work-research-img img {
     width: 100%;
     margin-top: 3rem !important;
-   
 }
+
+.duke-research-img img{
+    width: 100%;
+    margin-top: 3rem !important;
+    display: flex;
+    justify-content: center !important;
+}
+
+.sloganCon{
+    margin-top: 3rem !important;
+    background-color: var(--secondary-color);
+    padding: 2rem;
+    border-radius: 8px;
+}
+.slogan{
+    color: var(--light-color) !important;
+    font-family: var(--font-family-l) !important;
+    font-size: var(--font-size-h1) !important;
+}
+
+.tAContainer{   
+    justify-content: space-between;
+    margin-top: 3rem !important;
+    padding: 2rem !important;
+}
+
+.tAContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    margin-top: 3rem !important;
+    gap: 1rem;
+}
+
+.tAContent h4 {
+  font-weight: var(--font-weight-bold) !important;
+  color: var(--tertidary-color) !important;
+  font-size: var(--font-size-h3) !important;
+}
+
+.duke-design{
+    background-color: var(--secondary-color);
+    height: 40px !important;
+    width: 140px !important;
+    border-radius: 20px;
+    align-items: center !important;
+    justify-content: center !important;
+    color: var(--light-color) !important;
+    margin-top: 2rem !important;
+}
+
+.duke-result{
+    margin-top: 2rem !important;
+}
+
+#newInsight{
+    font-size: var(--font-size-h2) !important;
+    color: var(--tertidary-color) !important;
+    font-weight: var(--font-weight-semibold) !important;
+}
+
 .hr-2{
     color: var(--secondary-color);
     height: 3px;
@@ -230,15 +308,41 @@ html {
     display: flex;
 }
 
+.carousel{
+    z-index: -1;
+}
+
+.carousel-control-prev-icon-bg{
+    color: var(--primary-color) !important;
+}
+
 .work-result-img{
     display: flex;
-    justify-content: space-around;
+    gap: 2rem;
+    justify-content: center;
  
    
 }
 .work-result-img img{
 object-fit: cover !important;
 padding: 1rem;
+}
+
+.duke-history-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem !important;
+}
+
+.duke-history-img img {
+    object-fit: cover !important;
+    width: 60%;
+}
+
+.displayVideo{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem !important;
 }
 
 .teamCard{
@@ -291,6 +395,11 @@ padding: 1rem;
     color: var(--primary-color);
 }
 
+.emailB text {
+    font-family: var(--font-family-m);
+    font-size: var(--font-size-h4);
+}
+
 
 .contactBCon {
     display: flex;
@@ -312,6 +421,7 @@ padding: 1rem;
     color: var(--secondary-color);
     cursor: pointer;
     margin-left: 36px;
+    margin-top: 16px;
 }
 
 
