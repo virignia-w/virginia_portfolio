@@ -26,7 +26,7 @@ export default function Page() {
          type: "UX Service Design",
          title: "International Student Support Service",
          img: "images/project/kingston_m.png",
-         link: "#",
+         link: "/kingston",
       },
       {
          type: "UX/UI Digital Design",
@@ -38,13 +38,13 @@ export default function Page() {
          type: "UX/UI Digital Design",
          title: "Optimising User Experience: Reorganizing the UI Layout of a College Website",
          img: "images/project/iwkb_m.png",
-         link: "#",
+         link: "/IWKB",
       },
       {
          type: "",
          title: "Art",
          img: "images/project/art_m.png",
-         link: "#",
+         link: "/art",
       },
    ];
 

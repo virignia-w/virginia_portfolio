@@ -186,16 +186,22 @@ export default function Page() {
                     </div>
 
                     <div className="row work-reach col-12">
-                        <div className="col-7 reachout">
+                        <div className="col-7">
                             <h1>Reach out if you're interesting of more details</h1>
                         </div>
                         <div className="col-5 contactBCon">
                             <div><IoMail className="emailB" />ning93315@gmail.com
                             </div>
                             <div>
-                                <FaLinkedin className="linkedinB" />
-                                <FaInstagram className="instagramB" />
-                                <FaBehance className="behanceB" />
+                                <a href="https://www.linkedin.com/in/virginia-wang-31820a209/" target="_blank">
+                                    <FaLinkedin className="linkedinB" />
+                                </a>
+                                <a href="https://www.instagram.com/vir_n315/" target="_blank">
+                                    <FaInstagram className="instagramB" />
+                                </a>
+                                <a href="https://www.behance.net/ning933152215" target="_blank">
+                                    <FaBehance className="behanceB" />
+                                </a>
                             </div>
                         </div>
 

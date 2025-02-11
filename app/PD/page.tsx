@@ -28,7 +28,7 @@ export default function Page() {
                 <div className="row col-12 workHead-card">
                     <p className="p1">UX/UI Design Group Project</p>
                     <h1>Transforming a College Website with User-Centered UX Strategies</h1>
-                    <h2>Part1- PD Opportunities page aka workshop and events</h2>
+                    <h2>Part 1- PD Opportunities page aka workshop and events</h2>
                 </div>
                 <div className="row work-mainPic">
                     <img src="images/project/PDdisplay.png" alt="PDdisplay" />
@@ -59,7 +59,6 @@ export default function Page() {
 
                     <div className="row col-12 oldPicCon">
                         <div className="oldPic col-6 mx-auto col-md d-block">
-
                             <img src="images/project/PD.png" className="img-fluid"  alt="PD page" />
                         </div>
                         <div className="oldPic col-6 col-md mx-auto d-block">
@@ -161,43 +160,57 @@ export default function Page() {
                             <source src="images/project/PDrecord.mov" type="video/mp4" />
                         </video>
                     </div>
-                    <hr />
+                    <hr className="hr" />
                     <div className="row work-team col-12">
                         <h1>Meet the Teame</h1>
                         <div className="row meetTeam">
                             <div className="teamCard col-3">
                                 <img className="memberPic " src="images/project/Dorna.png" alt="Dorna Dahal" />
                                 <h2>Dorna Dahal</h2>
+                                <a href="https://www.linkedin.com/in/dorna-dahal-b12bb9296/" target="_blank">
                                 <FaLinkedin className="linkedinB" />
+                                </a>
                             </div>
                             <div className="teamCard col-3">
                                 <img className="memberPic " src="images/project/Harshit.png" alt="Harshit Bhardwaj" />
                                 <h2>Harshit Bhardwaj</h2>
+                                <a href="https://www.linkedin.com/in/harshit-daga/" target="_blank">
                                 <FaLinkedin className="linkedinB" />
+                                </a>
                             </div>
                             <div className="teamCard col-3">
                                 <img className="memberPic " src="images/project/Shreya.png" alt="Shreya Narayan" />
                                 <h2>Shreya Narayan</h2>
+                                <a href="https://www.linkedin.com/in/shreya-narayan-945328120/" target="_blank">
                                 <FaLinkedin className="linkedinB" />
+                                </a>
                             </div>
                             <div className="teamCard col-3">
                                 <img className="memberPic " src="images/project/Surya.png" alt="Surya Tamang" />
                                 <h2>Surya Tamang</h2>
+                                <a href="https://www.linkedin.com/in/suryatamang405/" target="_blank">
                                 <FaLinkedin className="linkedinB" />
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div className="row work-reach col-12">
-                        <div className="col-7 reachout">
+                        <div className="col-7">
                             <h1>Reach out if you're interesting of more details</h1>
                         </div>
                         <div className="col-5 contactBCon">
                             <div><IoMail className="emailB" />ning93315@gmail.com
                             </div>
                             <div>
-                                <FaLinkedin className="linkedinB" />
-                                <FaInstagram className="instagramB" />
-                                <FaBehance className="behanceB" />
+                                <a href="https://www.linkedin.com/in/virginia-wang-31820a209/" target="_blank">
+                                    <FaLinkedin className="linkedinB" />
+                                </a>
+                                <a href="https://www.instagram.com/vir_n315/" target="_blank">
+                                    <FaInstagram className="instagramB" />
+                                </a>
+                                <a href="https://www.behance.net/ning933152215" target="_blank">
+                                    <FaBehance className="behanceB" />
+                                </a>
                             </div>
                         </div>
 

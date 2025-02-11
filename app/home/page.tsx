@@ -46,10 +46,18 @@ export default function Page() {
             </div>
          </div>
          <section className="homeBtn">
+            <a href="https://drive.google.com/file/d/12qJEZ78C6yj9oftc8nn2pKrDXipuiEf0/view?usp=sharing" target="_blank">
             <button className="resumeB"><p className="resumeP">RESUME</p><PiFilePdf className="pdfB" /></button>
-            <FaLinkedin className="linkedinB"/>
-            <FaInstagram className="instagramB"/>
-            <FaBehance className="behanceB"/>
+            </a>
+            <a href="https://www.linkedin.com/in/virginia-wang-31820a209/" target="_blank">
+               <FaLinkedin className="linkedinB" />
+            </a>
+            <a href="https://www.instagram.com/vir_n315/" target="_blank">
+               <FaInstagram className="instagramB" />
+            </a>
+            <a href="https://www.behance.net/ning933152215" target="_blank">
+               <FaBehance className="behanceB" />
+            </a>
          </section>
 
 
