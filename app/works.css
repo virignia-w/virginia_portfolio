@@ -79,6 +79,10 @@ p {
     color: var(--accent-color) !important;
 }
 
+.breadcrumb a:hover {
+    color: var(--secondary-color) !important;
+}
+
 .workHead-card {
     border: solid;
     border-color: var(--secondary-colorr) !important;
@@ -323,7 +327,12 @@ p {
     display: flex;
     justify-content: space-around;
     margin-bottom: 3rem !important;
+}
 
+.img-row {
+    margin-top: 3rem !important;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .cook-research-img {
@@ -378,6 +387,12 @@ p {
     width: 60%;
 }
 
+.kingston-issue-img {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem !important;
+}
+
 .wireframe-img {
     display: flex;
     justify-content: center;
@@ -399,6 +414,36 @@ p {
     text-decoration: underline;
 }
 
+.kingston-issue {
+    background-color: var(--secondary-color);
+    align-items: center !important;
+    height: 35px !important;
+    justify-content: center !important;
+    border-radius: 20px;
+    color: var(--light-color) !important;
+    margin-top: 3rem !important;
+}
+
+.kingston-issue-l {
+    width: 180px !important;
+}
+
+.kingston-issue-n {
+    width: 360px !important;
+}
+
+.kingston-issue-c {
+    width: 200px !important;
+}
+
+.kingston-issue-ch {
+    width: 500px !important;
+}
+
+.kingston-issue-la {
+    width: 340px !important;
+}
+
 .teamCard {
     display: flex;
     flex-direction: column;
@@ -406,7 +451,7 @@ p {
     align-items: center;
 
     img {
-        width: 100%;
+        width: 80%;
 
     }
 
@@ -427,7 +472,12 @@ p {
     margin-top: 3rem !important;
 }
 
-
+.bcg-test {
+    background-color: #EBEDEB;
+    /* height: auto; */
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
 
 .work-reach {
     display: flex;

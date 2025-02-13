@@ -41,7 +41,7 @@ export default function Page() {
                <Sidenav />
 
             </div>
-            <div className="container allContent col-10">
+            <div className=" allContent col-10">
                <div className="container p-0 ms-0 greeting">
                   <div className="row firstHi">
                      <Image className="mypic col-6" src={myPic} style={{ width: (416), height: (416) }} alt="my pictute" />
@@ -53,18 +53,20 @@ export default function Page() {
                   </div>
                </div>
 
-               <div className="container p-0 ms-0 intro">
-                  <div className="row mystory storyRow">
-                     <div className="col-3">
-                        <h1>My Story</h1>
-                     </div>
-                     <div className="col-9">
-                        <p className="p1"> I am <strong>passionate about studying users, competitors, and the market</strong> to <strong>design user-friendly products.</strong> I
-                           <strong>enjoy collaborating with a team</strong> to create exceptional products.<br /><br />
+               <div className="row container intro">
+                  <div className="bcg-test">
+                     <div className=" mystory storyRow">
+                        <div className="col-3">
+                           <h1>My Story</h1>
+                        </div>
+                        <div className="col-9">
+                           <p className="p1"> I am <strong>passionate about studying users, competitors, and the market</strong> to <strong>design user-friendly products.</strong> I
+                              <strong>enjoy collaborating with a team</strong> to create exceptional products.<br /><br />
 
-                           <strong>Drawing</strong> is another passion of mine, with over <strong>10 years of experience.</strong> Although I do not have a graphic design degree, I
-                           am confident in my aesthetic abilities.<br /><br />
-                           Now, I am ready to contribute my skills as a web designer.</p>
+                              <strong>Drawing</strong> is another passion of mine, with over <strong>10 years of experience.</strong> Although I do not have a graphic design degree, I
+                              am confident in my aesthetic abilities.<br /><br />
+                              Now, I am ready to contribute my skills as a web designer.</p>
+                        </div>
                      </div>
                   </div>
                </div>
@@ -144,35 +146,37 @@ export default function Page() {
                   </div>
                   <div className="container p-0 ms-0 skills">
                      <div className="row DesignRow">
-                        <h1>Design Tools</h1>
-                        <div className="skillsticker">
-                           <div className="skillPic">
-                              <Image src={figma} alt="Figma" />
-                              <h3>Figma</h3>
-                           </div>
-                           <div className="skillPic">
-                              <Image src={xd} alt="Adobe XD" />
-                              <h3>Adobe XD</h3>
-                           </div>
-                           <div className="skillPic">
-                              <Image src={ps} alt="Photoshop" />
-                              <h3>Photoshop</h3>
-                           </div>
-                           <div className="skillPic">
-                              <Image src={ai} alt="Illustrator" />
-                              <h3>Illustrator</h3>
-                           </div>
-                           <div className="skillPic">
-                              <Image src={id} alt="Indesign" />
-                              <h3>Indesign</h3>
-                           </div>
-                           <div className="skillPic">
-                              <Image src={ppt} alt="PowerPoint" />
-                              <h3>PowerPoint</h3>
-                           </div>
-                           <div className="skillPic">
-                              <Image src={canva} alt="Canva" />
-                              <h3>Canva</h3>
+                        <div className="bcg-test">
+                           <h1>Design Tools</h1>
+                           <div className="skillsticker">
+                              <div className="skillPic">
+                                 <Image src={figma} alt="Figma" />
+                                 <h3>Figma</h3>
+                              </div>
+                              <div className="skillPic">
+                                 <Image src={xd} alt="Adobe XD" />
+                                 <h3>Adobe XD</h3>
+                              </div>
+                              <div className="skillPic">
+                                 <Image src={ps} alt="Photoshop" />
+                                 <h3>Photoshop</h3>
+                              </div>
+                              <div className="skillPic">
+                                 <Image src={ai} alt="Illustrator" />
+                                 <h3>Illustrator</h3>
+                              </div>
+                              <div className="skillPic">
+                                 <Image src={id} alt="Indesign" />
+                                 <h3>Indesign</h3>
+                              </div>
+                              <div className="skillPic">
+                                 <Image src={ppt} alt="PowerPoint" />
+                                 <h3>PowerPoint</h3>
+                              </div>
+                              <div className="skillPic">
+                                 <Image src={canva} alt="Canva" />
+                                 <h3>Canva</h3>
+                              </div>
                            </div>
                         </div>
                      </div>

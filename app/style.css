@@ -13,6 +13,7 @@ html {
     /* color-scheme: ; */
     --primary-color: #18412F;
     --secondary-color: #455D58;
+    --tertidary-color: #9D86A0;
     --light-color: #FEFDFB;
     --accent-color: #CE9199;
     --text-color: #18412F;
@@ -99,7 +100,10 @@ li a:hover {
     z-index: 9;
     justify-content: end;
 }
+.navC a:hover {
+    color: var(--tertidary-color) !important;}
 
+    
 @media (max-width: 992px) {
 
     nav {
@@ -127,8 +131,16 @@ li a:hover {
         background-color: var(--primary-color);
         /* 確保展開後的菜單可見 */
         flex-direction: column;
-        justify-content: flex-end;
-        /* 確保當漢堡選單展開時，選單項目排列在右邊 */
+        text-align: center;
+        padding: var(--space-gap);
+        
+        border-bottom: var(--tertidary-color) 2px solid;
+   }
+
+   .navC a:hover {
+    background-color: var(--accent-color);
+    color: var(--secondary-color) !important;
+    width: 100% !;
    }
 }
 
@@ -195,7 +207,7 @@ li a:hover {
     display: flex !important;
     margin-top: 70px;
     align-items: stretch;
-    height: calc(100vh - 70px);
+    /* height: calc(100vh - 70px); */
     /* background-color: var(--primary-color); */
 }
 
@@ -256,12 +268,17 @@ footer {
     margin-bottom: 7.5rem;
 }
 
-.contactRow,
-.DesignRow,
-.storyRow {
-    background-color: rgba(123, 112, 145, 0.1);
+.contactRow {
     height: auto;
     width: 100%;
+    background-color: #EBEDEB;
+}
+
+.bcg-test {
+    background-color: #EBEDEB;
+    /* height: auto; */
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
 }
 
 .contactRow {
@@ -284,10 +301,17 @@ footer {
     display: flex;
     margin: auto;
     padding: 0;
+    align-items: center;
     margin-top: 3rem !important;
     margin-bottom: 7.5rem !important;
+}
 
+.contactCon p {
+    margin-bottom: 0px !important;
+}
 
+.contactH1{
+    margin-top: 3rem !important;
 }
 
 hr {
@@ -705,14 +729,12 @@ h4 {
 }
 
 .projectFirst{
-    /* display: flex;
-    flex-wrap: nowrap !important; */
+
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 40px;
-    width: 95vw;
     padding: 3rem 2rem 3rem 2rem;
 }
 

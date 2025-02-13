@@ -74,7 +74,7 @@ export default function Page() {
                     <p className="p1">To gain a deeper understanding of the market and the product, I examined the history of the Duke series, the market dynamics of the 1990-2010 period, and the current market landscape.</p>
                     <div className="row work-research col-12">
                         <div className="workH">
-                            <h3>01 The current market</h3>
+                            <h3 className="underline">01 The current market</h3>
                             <p className="p1">I analyzed the sales data for the entire under-250cc scooter market (the next-level license category) to demonstrate to the C-level executives the size and importance of the 125cc market. I highlighted why it was essential to continue supporting this segment and, most importantly, why the 2017 Duke needed an upgrade and redesign.</p>
                             <div className="duke-research-img col-10 mx-auto col-md d-block">
                                 <img src="images/project/125-market-1.jpg" />
@@ -89,7 +89,7 @@ export default function Page() {
 
                     <div className="row bgc col-12">
                         <div className="work-design workH  ">
-                            <h3>02 Competitors analyse</h3>
+                            <h3 className="underline">02 Competitors analyse</h3>
                         </div>
                         <div className="work-design-text">
                             <p className="p1 col-12">I compared the sales data of our products with those of our competitors. Both we and our main competitor had launched two models in this segment, and this is where I DISCOVERED SOMETHING NEW!</p>
@@ -98,7 +98,7 @@ export default function Page() {
                     </div>
                     <div className="row work-result col-12">
                         <div className="work-result-text workH ">
-                            <h3 className="">03 Breakpoint</h3>
+                            <h3 className="underline">03 Breakpoint</h3>
                             <h3 id="newInsight">New Insight I discovered</h3>
                             <p className="p1">Previously, it was widely assumed that although the two models differed in size, they shared the same target users, with customers simply choosing the better deal or selecting based on physical size preferences. However, after a detailed analysis of user demographics, purchasing behavior, and preferences, I discovered that the larger model actually appeals more to younger users and has a significantly higher proportion of male buyers compared to female buyers.</p>
                             <div className="duke-history-img">
@@ -111,7 +111,7 @@ export default function Page() {
                     <hr className="hr" />
                     <div className="row work-result col-12">
                         <div className="work-result-text workH ">
-                            <h3 className="">04 Story of Duke and the company</h3>
+                            <h3 className="underline">04 Story of Duke and the company</h3>
                             <p className="p1">The first Duke, Duke I 150, debuted in 1990, featuring a cutting-edge engine and an original racing-inspired design. It quickly took the market by storm, becoming the most popular scooter among young riders aged 18 to 30.</p>
                             <p className="p1">Now, let's do some simple math, 'Duke' is the dream scooter for teenagers and young boys in the 90's, after 30 years now, how old are those youth in the 2020s? Exactly the age of our New Duke's target- 36 ups.</p>
                             <div className="duke-history-img">

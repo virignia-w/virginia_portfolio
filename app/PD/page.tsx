@@ -67,19 +67,21 @@ export default function Page() {
 
                     </div>
                 </div>
-                <div className="row p-0 ms-0 work-section work-bcg-text bgc col-12">
+                <div className="row p-0 ms-0 work-section work-bcg-text col-12">
+                    <div className="bcg-test">
                     <h1 className="work-titlt-text">The task we focus on</h1>
                     <p className="p1">1. Enhance UI: Make the interface more intuitive and visually appealing.</p>
                     <p className="p1">2. Simplify content: Reduce information overload for easier navigation.</p>
                     <p className="p1">3. Streamline registration: Minimize clicks to speed up the sign-up process.</p>
                     <p className="p1">4. Improve discoverability: Help users quickly find courses</p>
+                    </div>
                 </div>
                 <div className="row p-0 ms-0 work-section work-bcg-text col-12">
                     <h1>Action & My role</h1>
                     <p className="p1">Our team of six UX researchers and designers worked collaboratively on this project.</p>
                     <div className="row work-research col-12">
                         <div className="workH col-5">
-                            <h3>01 Research</h3>
+                            <h3 className="underline">01 Research</h3>
                             <p className="p1">Conducted literature reviews, heuristic analyses, competitive analysis, and 3 user interviews during the wireframe and prototype phases.</p>
                         </div>
                         <div className="work-research-img col-7">
@@ -101,9 +103,10 @@ export default function Page() {
                         <img className="col-4" src="images/project/litera.png" alt="literature review" />
                         <img className="col-4" src="images/project/heurEva.png" alt="heuristic analysis" />
                     </div>
-                    <div className="row bgc col-12">
+                    <div className="row col-12">
+                        <div className="bcg-test">
                         <div className="work-design workH ">
-                            <h3>02 Design (sitemap/sketch/wireframe/usability testing)</h3>
+                            <h3 className="underline">02 Design (sitemap/sketch/wireframe/usability testing)</h3>
 
                         </div>
                         <div className="work-design-text">
@@ -137,12 +140,13 @@ export default function Page() {
                             </div>
                         </div>
                         <hr className="hr-2" />
+                        </div>
                     </div>
                     
                     
                     <div className="row work-result col-12">
                         <div className="work-result-text workH">
-                            <h3 className="">03 Result</h3>
+                            <h3 className="underline">03 Result</h3>
                             <p className="p1">The final design beautifully aligned with the client's needs and was well-received during the presentation. The introduction of the event calendar and streamlined course organization was highly appreciated by the client, especially for simplifying the registration process and enhancing overall usability.</p>
                         </div>
                         <div className="work-result-img">
