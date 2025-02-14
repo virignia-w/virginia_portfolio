@@ -24,6 +24,7 @@ import present from "../public/present.png";
 import { FaLinkedin, FaInstagram, FaBehance } from "react-icons/fa6";
 import { IoMail } from "react-icons/io5";
 import Contact from "../components/contact";
+import Keywords from "../components/keywords";
 
 
 export default function Page() {
@@ -33,6 +34,11 @@ export default function Page() {
          <div className="row ">
             <div className="col-12" id="myHeader">
                <Header />
+            </div>
+         </div>
+         <div className="row container-all">
+            <div className="col-12">
+               <Keywords />
             </div>
          </div>
          <div className="container-all">
