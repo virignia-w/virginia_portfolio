@@ -143,14 +143,14 @@ li a:hover {
     }
 }
 
-.sidenav>div>a {
+/* .sidenav>div>a {
     text-decoration: none !important;
     color: var(--primary-color) !important;
 }
 
 .sidenav {
     margin-top: 70px !important;
-}
+} */
 
 .content {
     height: 628px;
@@ -172,29 +172,18 @@ li a:hover {
     margin-bottom: 1rem !important;
 }
 
-#sideBar>ul>a {
+#sideBar > a {
     color: var(--primary-color) !important;
     text-decoration: none !important;
     font-family: var(--font-family-l);
     font-size: var(--font-size-h4);
-    cursor: pointer;
-    pointer-events: auto;
 }
 
-/* .sidebarItem:hover {
-    color: var(--tertidary-color) !important;
-    text-decoration: underline !important;
-    cursor: pointer;
-    pointer-events: auto;
-
-} */
-
-/* .navDigitalDesign {
-    background-image: url("/public/images/menubc.png") !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-
-} */
+@media (max-width: 768px) {
+col-2{
+        display: none;
+    }
+}
 
 .container-all {
     display: flex !important;

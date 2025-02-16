@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/header";
-import Sidenav from "../components/sidenav";
+import "../mobile.css";
 import Image from "next/image";
 import myPic from "../public/myPic.png";
 import figma from "../public/figma.png";
@@ -36,22 +36,8 @@ export default function Page() {
                <Header />
             </div>
          </div>
-         <div className="row container-all">
-            <div className="col-12">
-               <Keywords />
-            </div>
-         </div>
          <div className="container-all">
-            <div className="col-2 container m-0 d-flex p-3 flex-shrink-0 flex-column sidebar-option">
-               <ul className="" id="sideBar">
-                  <a className="nav-link nav-link active sidebarItem" aria-current="page" href="/about#experience">Experiencen</a>
-                  <a className="nav-link nav-link active" aria-current="page" href="/about#skill">Skills</a>
-                  <a className="nav-link nav-link active" aria-current="page" href="/about#education">Education</a>
-                  <a className="nav-link nav-link active" aria-current="page" href="/about#contact">Contact</a>
-               </ul>
-
-            </div>
-            <div className=" allContent col-10">
+            <div className=" allContent col-12">
                <div className="container p-0 ms-0 greeting">
                   <div className="row firstHi">
                      <Image className="mypic col-6" src={myPic} style={{ width: (416), height: (416) }} alt="my pictute" />
