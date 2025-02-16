@@ -14,14 +14,14 @@ export default function Page() {
 
 
             <div className="container-all">
-                <div className="row">
+                <div className="row d-flex">
                     <div className="gallery">
                         <img src="images/art/peacock.jpg" alt="Peacock" />
                         <img src="images/art/cat.jpg" alt="Cat" />
                         <img src="images/art/fruit.jpg" alt="Fruit" />
-                        <img className="tiger" src="images/art/tiger.jpg" alt="Tiger" />
+                        <img id="tiger" src="images/art/tiger.jpg" alt="Tiger" />
                         <img src="images/art/wolf.jpg" alt="Wolf" />
-                        <div className="gallery-text">By Colour Pencils</div>
+                        <div className="gallery-text text-center">By Colour Pencils</div>
                         <img src="images/art/owl.jpg" alt="Owl" />
                         
                     </div>

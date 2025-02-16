@@ -802,7 +802,6 @@ h4 {
 .gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    height: 100vh;
     gap: 20px;
     margin: auto;
     padding: 3rem !important;
@@ -810,20 +809,24 @@ h4 {
 }
 
 .gallery img {
-    width: auto;
+    width: 100%;
     height: 312px;
+    object-fit: cover!important;
 }
 
 .gallery-text {
-    
     background-color: var(--tertidary-color);
     color: var(--light-color);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 24px;
+    padding: 1rem !important;
+    font-size: var(--font-size-h1);
+    font-family: var(--font-family-l);
+    height: 312px;
 }
 
-.tiger{
+#tiger{
     grid-row: span 2;
+    height: 653px !important;
 }
