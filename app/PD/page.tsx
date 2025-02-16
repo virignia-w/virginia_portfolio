@@ -70,10 +70,10 @@ export default function Page() {
                 <div className="row p-0 ms-0 work-section work-bcg-text col-12">
                     <div className="bcg-test">
                     <h1 className="work-titlt-text">The task we focus on</h1>
-                    <p className="p1">1. Enhance UI: Make the interface more intuitive and visually appealing.</p>
-                    <p className="p1">2. Simplify content: Reduce information overload for easier navigation.</p>
-                    <p className="p1">3. Streamline registration: Minimize clicks to speed up the sign-up process.</p>
-                    <p className="p1">4. Improve discoverability: Help users quickly find courses</p>
+                        <p className="p1"><strong>1. Enhance UI:</strong> Make the interface more intuitive and visually appealing.</p>
+                        <p className="p1"><strong>2. Simplify content:</strong> Reduce information overload for easier navigation.</p>
+                        <p className="p1"><strong>3. Streamline registration:</strong> Minimize clicks to speed up the sign-up process.</p>
+                        <p className="p1"><strong>4. Improve discoverability:</strong> Help users quickly find courses</p>
                     </div>
                 </div>
                 <div className="row p-0 ms-0 work-section work-bcg-text col-12">
@@ -110,7 +110,7 @@ export default function Page() {
 
                         </div>
                         <div className="work-design-text">
-                            <p className="p1 col-6">Led the design phase by collaborating with clients through sketches, wireframes, and prototypes to finalize the direction.</p>
+                            <p className="p1 col-5">Led the design phase by collaborating with clients through sketches, wireframes, and prototypes to finalize the direction.</p>
                             <div id="carouselExampleFade" className="carousel slide carousel-fade backgroundCarousel col-6 ">
                                 <div className="carousel-inner">
                                     <div className="carousel-item active">
@@ -158,7 +158,7 @@ export default function Page() {
                     <hr className="hr" />
                     <div className="row work-proto col-12">
                         <h1>Final Prototype</h1>
-                        <p className="p1">The final design beautifully aligned with the client's needs and was well-received during the presentation. The introduction of the event calendar and streamlined course organization was highly appreciated by the client, especially for simplifying the registration process and enhancing overall usability.</p>
+                        <p className="p1"><strong>The final design beautifully aligned with the client's needs and was well-received during the presentation.</strong> The introduction of the event calendar and streamlined course organization was highly appreciated by the client, especially for simplifying the registration process and enhancing overall usability.</p>
 
                         <video className="displayVideo" width="800" height="auto" controls>
                             <source src="images/project/PDrecord.mov" type="video/mp4" />

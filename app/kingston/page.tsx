@@ -57,7 +57,7 @@ export default function Page() {
                     <div className="bcg-test">
                         <div className="work-bcg-text">
                             <h1 className="work-titlt-text">Background</h1>
-                            <p className="p1">The International Student Support project is one we undertook for the city of Kingston while I was in SLC's UX design program. Its main goal is to understand the demands of international students and the challenges they encounter. Our group will specifically focus on 'Immigration Support'.</p>
+                            <p className="p1">The International Student Support project is one we undertook <strong>for the city of Kingston while I was in SLC's UX design program.</strong> Its main goal is to <strong>understand the demands of international students and the challenges they encounter.</strong> Our group will specifically focus on 'Immigration Support'.</p>
                         </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@ export default function Page() {
                     <h1 className="work-titlt-text">Introduction</h1>
                     <div className="work-bcg-text col-7">
                         
-                        <p className="p1">When people think of immigration support, they tend to envision only the services related to the study permit or permanent residency application process. However, immigration support encompasses much more than that. It includes information on how to prepare for and adapt to a new environment, how to deal with winter, knowledge of local bylaws and cultural norms, and even understanding customs such as tipping and joining social gatherings, which vary across different cultures.</p>
+                        <p className="p1">When people think of immigration support, they tend to envision only the services related to the study permit or permanent residency application process. However, <strong>immigration support encompasses much more than that.</strong> It includes information on <strong>how to prepare for and adapt to a new environment,</strong> how to deal with winter, knowledge of local bylaws and cultural norms, and even understanding customs such as tipping and joining social gatherings, which vary across different cultures.</p>
                     </div>
                     <div className="work-research-img col-5">
                         <img src="images/project/event1.jpg" alt="event picture" />
@@ -116,7 +116,7 @@ export default function Page() {
                             <div className="row col-12">
                             <div className="workH col-7">
                                 <h3 className="underline">03 Design thinking session</h3>
-                                <p className="p1">We hosted a Design Thinking Session during the City of Kingston's International Student Symposium. The session aimed to generate and identify solutions for our top five issues. We conducted five activities: empathy mapping, design challenge and voting, brainstorming, journey mapping, and scenario role-playing. We had approximately eight participants.</p>
+                                    <p className="p1">We hosted a Design Thinking Session during the <strong>City of Kingston's International Student Symposium.</strong> The session aimed to <strong>generate and identify solutions for our top five issues.</strong> We conducted five activities: <strong>empathy mapping, design challenge and voting, brainstorming, journey mapping, and scenario role-playing.</strong> We had approximately eight participants.</p>
                             </div>
                             <div className="work-research-img col-5">
                                 <img src="images/project/event2.jpg" alt="Event picture" />
@@ -154,7 +154,7 @@ export default function Page() {
                     <div className="row work-result col-12">
                         <div className="work-result-text workH">
                             <h3 className="underline">04 Requirement</h3>
-                            <p className="p1">After completing all the research activities, each of us individually analyzed and generated requirements, which were then combined to identify common and optimal ones. As a result, we have compiled a list of 35 requirements as a group.</p>
+                            <p className="p1">After completing all the research activities, each of us individually analyzed and generated requirements, which were then combined to identify common and optimal ones. As a result, we have compiled <strong>a list of 35 requirements as a group.</strong></p>
                             <h4>Top 5</h4>
                             <ol>
                                 <li className="p1">Develop a user-friendly, multilingual digital platform for accessing immigration support services, including FAQs, guides, and live chat support.</li>

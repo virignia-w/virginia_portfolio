@@ -263,7 +263,7 @@ p {
 
 .tAContainer {
     justify-content: space-between;
-    margin-top: 3rem !important;
+    /* margin-top: 3rem !important; */
     padding: 2rem !important;
 }
 
@@ -307,8 +307,12 @@ p {
     height: 3px;
     margin-top: 3rem !important;
     margin-bottom: 3rem !important;
-
 }
+
+/* .padding{
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+} */
 
 .work-research-role {
     display: flex;
@@ -350,11 +354,12 @@ p {
 }
 
 .carousel {
-    z-index: -1;
+    z-index: 1 !important;
+    margin: auto !important;
 }
 
-.carousel-control-prev-icon-bg {
-    color: var(--primary-color) !important;
+.carousel-button {
+    background-color: var(--primary-color) !important;
 }
 
 .work-result-img {
@@ -543,3 +548,4 @@ p {
 .behanceB:hover {
     color: var(--primary-color);
 }
+

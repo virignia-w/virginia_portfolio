@@ -54,7 +54,7 @@ export default function Page() {
                 <div className="row p-0 ms-0 work-bcg col-12">
                     <div className="work-bcg-text">
                         <h1 className="work-titlt-text">Introduction/Background</h1>
-                        <p className="p1">Imagine you're a college professor eager to adapt your teaching for a diverse classroom including both national and international students. You need resources on culture-sensitive and inclusive learning—essential information that the college claims to provide. But upon accessing the webpage, you're met with a disorganized barrage of repetitive information. How frustrating is that? Our project aimed to transform this clutter into a streamlined, intuitive interface, making essential resources easily accessible and clearly organised. <br></br><br></br>There are what you would see</p>
+                        <p className="p1">Imagine you're a college professor eager to adapt your teaching for a diverse classroom including both national and international students. You need resources on culture-sensitive and inclusive learning—essential information that the college claims to provide. But upon accessing the webpage, you're met with a <strong>disorganized barrage of repetitive information.</strong> How frustrating is that? Our project aimed to <strong>transform this clutter into a streamlined, intuitive interface, making essential resources easily accessible and clearly organised.</strong> <br></br><br></br>There are what you would see</p>
                     </div>
 
                     <div className="row col-12 oldPicCon">
@@ -70,7 +70,7 @@ export default function Page() {
                 <div className="row p-0 ms-0 work-section work-bcg-text col-12">
                     <div className="bcg-test">
                     <h1 className="work-titlt-text">The task we focus on</h1>
-                    <p className="p1">Enhance UI and User Flow: Design an appealing user interface that presents a reasonable amount of information, ensuring that navigation is intuitive and user-friendly.</p>
+                        <p className="p1"><strong>Enhance UI and User Flow:</strong> Design an appealing user interface that presents a reasonable amount of information, ensuring that navigation is intuitive and user-friendly.</p>
                     </div>
                 </div>
                 <div className="row p-0 ms-0 work-section work-bcg-text col-12">
@@ -144,7 +144,8 @@ export default function Page() {
                     <div className="row work-result col-12">
                         <div className="work-result-text workH">
                             <h3 className="underline">03 Result</h3>
-                            <p className="p1">The final design beautifully aligned with the client's needs and was well-received during the presentation. The introduction of the event calendar and streamlined course organization was highly appreciated by the client, especially for simplifying the registration process and enhancing overall usability.</p>
+                            <p className="p1">
+                                The final design <strong>exceeded the client's expectations and was enthusiastically received during the presentation.</strong> The clean layout and thoughtful reorganization of the navigation were particularly praised by the client. They expressed excitement about future expansions, noting, "We're looking forward to adding more subsections to these sections in the future.</p>
                         </div>
                         <div className="work-result-img">
                             <img className="col-4" src="images/project/displayboard.png" alt="dispaly board" />
@@ -155,8 +156,6 @@ export default function Page() {
                     <hr className="hr" />
                     <div className="row work-proto col-12">
                         <h1>Final Prototype</h1>
-                        <p className="p1">The final design beautifully aligned with the client's needs and was well-received during the presentation. The introduction of the event calendar and streamlined course organization was highly appreciated by the client, especially for simplifying the registration process and enhancing overall usability.</p>
-
                         <video className="displayVideo" width="800" height="auto" controls>
                             <source src="images/project/IWKBrecord.mov" type="video/mp4" />
                         </video>

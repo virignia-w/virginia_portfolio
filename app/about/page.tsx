@@ -58,10 +58,9 @@ export default function Page() {
                      </div>
                   </div>
                </div>
-
                <div className="row container intro">
-                  <div className="bcg-test">
-                     <div className=" mystory storyRow">
+                  <div className="bcg-test storyRow">
+                     <div className=" mystory">
                         <div className="col-3">
                            <h1>My Story</h1>
                         </div>

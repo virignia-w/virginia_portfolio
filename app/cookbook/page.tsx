@@ -52,7 +52,7 @@ export default function Page() {
                 <div className="row p-0 ms-0 work-bcg col-12">
                     <div className="work-bcg-text">
                         <h1 className="work-titlt-text">My Role</h1>
-                        <p className="p1">This project was an assignment from my UX/UI online class, and I worked independently as a sole team.</p>
+                        <p className="p1">This project was an assignment from my UX/UI online class, and I worked <strong>independently as a sole team.</strong></p>
                     </div>
                 </div>
                 <div className="row p-0 ms-0 work-bcg col-12 work-section">
@@ -60,7 +60,7 @@ export default function Page() {
                         <div className="work-bcg-text">
                             <h1 className="work-titlt-text">Introduction/Background</h1>
                             <p className="p1">This project began with a personal need. Like many beginners, my friends and I started cooking for ourselves after moving out of our parents' homes.<br></br><br></br>
-                                As we searched for recipes online and on apps, we discovered that the app I frequently used, COOKPAD, had several frustrating usability issues. These challenges inspired me to redesign the app to make it more intuitive and user-friendly, especially for beginners.<br></br><br></br>
+                                As we searched for recipes online and on apps, we discovered that <strong>the app I frequently used, COOKPAD,</strong> had several <strong>frustrating usability issues.</strong> These challenges inspired me to redesign the app to <strong>make it more intuitive and user-friendly, especially for beginners.</strong><br></br><br></br>
                                 There are what you would see</p>
                         </div>
                         <div className="row col-12 oldPicCon">
@@ -88,7 +88,7 @@ export default function Page() {
                 <div className="row p-0 ms-0 work-section work-bcg-text col-12">
                     <div className="bcg-test">
                         <h1>Solution</h1>
-                        <p className="p1">Providing "Play the Recipe"- enjoy full-screen guidance for each cooking step without interruptions The screen stays open with a timer function, allowing a smoother and more enjoyable cooking process.</p>
+                        <p className="p1"><strong>Providing "Play the Recipe"</strong>- enjoy full-screen guidance for each cooking step without interruptions The screen stays open with a timer function, allowing a smoother and more enjoyable cooking process.</p>
                         <p className="p1">1. Organize the category by meal types and cuisines.</p>
                         <p className="p1">2. Using easily recognizable icons.</p>
                         <p className="p1">3. Introducing section for Ingredients and Cooking Skills knowledge.</p>
@@ -106,7 +106,7 @@ export default function Page() {
                     <hr className="hr" />
                     <div className="workH ">
                         <h3>Personas</h3>
-                        <p className="p1">After setting the goals, I interviewed some users to know what extra pain points were for them, and make sure every useful function I wanted to add was needed.</p>
+                        <p className="p1">After setting the goals, I <strong>interviewed some users</strong> to know what extra pain points were for them, and make sure every useful function I wanted to add was needed.</p>
                         <h3 className="painPoint">Their pain points:</h3>
                         <ol>
                             <li className="p1">It's hard to know which one has better quality.</li>
@@ -124,7 +124,7 @@ export default function Page() {
                     <div className="bcg-test">
                         <div className="row workH journeyPic">
                             <h3>User Journey</h3>
-                            <p className="p1">I delved into users' emotions and behaviors during their cooking, pinpointing sources of annoyance. Afterward, I sought feedback about whether some modifications or additions would enhance their experience.</p>
+                            <p className="p1">I <strong>delved into users' emotions and behaviors</strong> during their cooking, pinpointing sources of annoyance. Afterward, I <strong>sought feedback</strong> about whether some modifications or additions would enhance their experience.</p>
                             <img className="col-10 d-flex" src="images/project/journey.jpg" alt="User journey" />
                         </div>
                     </div>
