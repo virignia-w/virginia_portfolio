@@ -55,7 +55,7 @@ html {
     }
 } 
 
-/* .embrace {
+.embrace {
     display: flex;
     justify-content: center;
 
@@ -167,7 +167,7 @@ html {
             font-size: 4rem !important;
         }
     
-} */ 
+}
 
 
 .keyword h1 {
@@ -179,7 +179,7 @@ html {
     /* Initial color */
 }
 
-.keyword.active h1 {
+.active h1 {
     animation: fadeInAndColorChange 3s forwards;
     /* Animation to change color and opacity */
 }
