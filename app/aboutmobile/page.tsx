@@ -27,7 +27,7 @@ import Contact from "../components/contact";
 import Keywords from "../components/keywords";
 
 
-export default function Page() {
+export default function AboutMobile() {
    return <>
 
       <div id="container wrapper m-0 p-0 gx-0">

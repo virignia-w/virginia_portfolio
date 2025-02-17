@@ -27,7 +27,7 @@ import Contact from "../components/contact";
 import Keywords from "../components/keywords";
 
 
-export default function Page() {
+export default function About() {
    return <>
 
       <div id="container wrapper m-0 p-0 gx-0">
@@ -256,3 +256,4 @@ export default function Page() {
       </div>
    </>
 }
+

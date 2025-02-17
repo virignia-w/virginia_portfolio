@@ -180,9 +180,10 @@ li a:hover {
 }
 
 @media (max-width: 768px) {
-col-2{
-        display: none;
-    }
+.col-2 {
+    display: none;
+}
+
 }
 
 .container-all {
